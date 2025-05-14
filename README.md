@@ -51,7 +51,8 @@ Enter an IP address (or leave blank for your own IP): 8.8.8.8
 ----
 ⚠️ Legal Disclaimer
 
-<h3 align="center">This tool is intended for educational and ethical OSINT usage only.
+```bash
+This tool is intended for educational and ethical OSINT usage only.
 Information is sourced from ipinfo.io, which provides publicly accessible IP metadata.
 
 Do not use this tool for:
@@ -60,7 +61,8 @@ Activities that violate privacy or data protection laws
 
 Breaches of terms of service
 
-Any unlawful, unethical, or malicious purposes</h3>
+Any unlawful, unethical, or malicious purposes
+```
 ----
 📄 License
 Licensed under the MIT License.
