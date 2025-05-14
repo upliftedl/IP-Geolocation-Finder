@@ -11,8 +11,6 @@ Useful for security researchers, analysts, and curious hobbyists.
 ## ⚙️ Prerequisites
 
 - Python 3.7 or higher  
-- Internet connection (for API requests)
-
 ---
 
 ## 📦 Installation
