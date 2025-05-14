@@ -1,23 +1,31 @@
-📌 IP Geolocation Finder
-A clean, fast IP metadata lookup tool built in Python using the ipinfo.io API.
-by @upliftedl
+# 📌 IP Geolocation Finder
 
-IP Geolocation Finder is a lightweight OSINT utility to fetch details about an IP address—like city, country, ISP, and coordinates.
-Perfect for security researchers, analysts, or curious hobbyists.
+> A clean, fast IP metadata lookup tool built in Python using the [ipinfo.io](https://ipinfo.io) API.  
+> by [@upliftedl](https://github.com/upliftedl)
 
-⚙️ Prerequisites
-Python 3.7 or higher
+**IP Geolocation Finder** is a lightweight OSINT utility to fetch details about an IP address—such as city, country, ISP, coordinates, and timezone.  
+Useful for security researchers, analysts, and curious hobbyists.
 
-Internet connection (to query the ipinfo.io API)
+---
 
-📦 Installation
-bash
-Copy
-Edit
+## ⚙️ Prerequisites
+
+- Python 3.7 or higher  
+- Internet connection (for API requests)
+
+---
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
 git clone https://github.com/your-username/ip-geolocation-finder.git
 cd ip-geolocation-finder
 pip install -r requirements.txt
 💻 Usage
+Run the script using:
+
 bash
 Copy
 Edit
@@ -26,7 +34,7 @@ You will be prompted to:
 
 Enter a public IP address (e.g., 8.8.8.8)
 
-Or leave it blank to fetch info about your own IP
+Or leave it blank to fetch geolocation data for your own IP
 
 🧪 Output Example
 yaml
@@ -34,25 +42,25 @@ Copy
 Edit
 Enter an IP address (or leave blank for your own IP): 8.8.8.8
 
-🌐 IP Address: 8.8.8.8  
-📍 Location: Mountain View, California, US  
-🗺️ Coordinates: 37.4056, -122.0775  
-🏢 Organization: AS15169 Google LLC  
-⌛ Timezone: America/Los_Angeles
+🌐 IP Address   : 8.8.8.8  
+📍 Location     : Mountain View, California, US  
+🗺️  Coordinates  : 37.4056, -122.0775  
+🏢 Organization : AS15169 Google LLC  
+⌛ Timezone     : America/Los_Angeles
 ⚠️ Legal Disclaimer
 This tool is intended for educational and ethical OSINT usage only.
-Data is fetched from ipinfo.io, which provides publicly accessible metadata.
+Information is sourced from ipinfo.io, which provides publicly accessible IP metadata.
 
-Please do not use this tool for:
+Do not use this tool for:
 
-Any activity that violates privacy
+Activities that violate privacy or data protection laws
 
-Actions breaching terms of service
+Breaches of terms of service
 
-Any unlawful or malicious purposes
+Any unlawful, unethical, or malicious purposes
 
 📄 License
-This project is licensed under the MIT License.
+Licensed under the MIT License.
 
 💡 Powered By
-ipinfo.io API — Free for up to 50,000 requests per month.
+🌐 ipinfo.io API — Free tier supports up to 50,000 requests/month.
