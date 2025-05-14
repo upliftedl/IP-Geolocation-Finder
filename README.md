@@ -25,7 +25,7 @@ cd ip-geolocation-finder
 pip install -r requirements.txt
 ```
 ----
-##💻 Usage
+💻 Usage
 Run the script using:
 
 ```bash
@@ -38,7 +38,7 @@ Enter a public IP address (e.g., 8.8.8.8)
 Or leave it blank to fetch geolocation data for your own IP
 ```
 ----
-##🧪 Output Example
+🧪 Output Example
 ```bash
 Enter an IP address (or leave blank for your own IP): 8.8.8.8
 
@@ -49,7 +49,7 @@ Enter an IP address (or leave blank for your own IP): 8.8.8.8
 ⌛ Timezone     : America/Los_Angeles
 ```
 ----
-##⚠️ Legal Disclaimer
+⚠️ Legal Disclaimer
 This tool is intended for educational and ethical OSINT usage only.
 Information is sourced from ipinfo.io, which provides publicly accessible IP metadata.
 
