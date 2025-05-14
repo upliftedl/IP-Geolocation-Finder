@@ -23,23 +23,23 @@ Clone the repository and install dependencies:
 git clone https://github.com/your-username/ip-geolocation-finder.git
 cd ip-geolocation-finder
 pip install -r requirements.txt
-💻 Usage
+```
+----
+##💻 Usage
 Run the script using:
 
-bash
-Copy
-Edit
+```bash
 python ip_finder.py
+```
 You will be prompted to:
-
+```bash
 Enter a public IP address (e.g., 8.8.8.8)
 
 Or leave it blank to fetch geolocation data for your own IP
-
-🧪 Output Example
-yaml
-Copy
-Edit
+```
+----
+##🧪 Output Example
+```bash
 Enter an IP address (or leave blank for your own IP): 8.8.8.8
 
 🌐 IP Address   : 8.8.8.8  
@@ -47,7 +47,9 @@ Enter an IP address (or leave blank for your own IP): 8.8.8.8
 🗺️  Coordinates  : 37.4056, -122.0775  
 🏢 Organization : AS15169 Google LLC  
 ⌛ Timezone     : America/Los_Angeles
-⚠️ Legal Disclaimer
+```
+----
+##⚠️ Legal Disclaimer
 This tool is intended for educational and ethical OSINT usage only.
 Information is sourced from ipinfo.io, which provides publicly accessible IP metadata.
 
@@ -58,9 +60,9 @@ Activities that violate privacy or data protection laws
 Breaches of terms of service
 
 Any unlawful, unethical, or malicious purposes
-
+----
 📄 License
 Licensed under the MIT License.
-
+----
 💡 Powered By
 🌐 ipinfo.io API — Free tier supports up to 50,000 requests/month.
