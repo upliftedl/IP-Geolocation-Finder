@@ -18,7 +18,7 @@ Useful for security researchers, analysts, and curious hobbyists.
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/ip-geolocation-finder.git
+git clone https://github.com/upliftedl/ip-geolocation-finder.git
 cd ip-geolocation-finder
 pip install -r requirements.txt
 ```
@@ -36,6 +36,15 @@ Enter a public IP address (e.g., 8.8.8.8)
 Or leave it blank to fetch geolocation data for your own IP
 ```
 ----
+📊 Project Structure
+```bash
+ip-geolocation-finder/
+├── ip_finder.py
+├── requirements.txt
+├── LICENSE
+└── README.md
+
+```
 🧪 Output Example
 ```bash
 Enter an IP address (or leave blank for your own IP): 8.8.8.8
